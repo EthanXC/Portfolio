@@ -1,0 +1,8 @@
+{
+    "name": "ethanxc.github.io",
+    "scripts": {
+      "dev": "cd Portfolio && npm run dev",
+      "build": "cd Portfolio && npm run build"
+    }
+  }
+  
