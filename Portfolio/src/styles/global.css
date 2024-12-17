@@ -10,4 +10,12 @@
   html, body {
     font-family: 'Menlo', 'sans-serif';
   }
-  
+
+/* Set background color for the entire website */
+html, body {
+    background-color: black; /* Set background to black */
+    color: white; /* Set text color to white */
+    margin: 0;  /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    height: 100%; /* Make sure the body takes up the full height */
+  }
