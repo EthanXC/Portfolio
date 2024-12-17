@@ -1,0 +1,18 @@
+.navbar {
+    display: flex;
+    justify-content: center; /* Center the links horizontally */
+    gap: 20px; /* Add space between the links */
+    padding: 10px 0; /* Add vertical padding */
+  }
+  
+  .nav-link {
+    text-decoration: none; /* Remove underline from links */
+    color: black; /* Set link color */
+    font-size: 16px; /* Adjust font size */
+    font-weight: bold; /* Make the text bold */
+  }
+  
+  .nav-link:hover {
+    color: #007BFF; /* Add a hover effect (optional) */
+  }
+  
