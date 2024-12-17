@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Menlo'; /* Name of the font */
+    src: url('../assets/fonts/Menlo-Regular.woff') format('woff'),
+    url('../assets/fonts/Menlo-Regular.ttf') format('truetype'); /* Path to font file */
+    font-weight: normal; /* Set default weight */
+    font-style: normal; /* Set default style */
+  }
+  
+  /* Apply the font globally */
+  html, body {
+    font-family: 'Menlo', 'sans-serif';
+  }
+
+/* Set background color for the entire website */
+html, body {
+    background-color: black; /* Set background to black */
+    color: white; /* Set text color to white */
+    margin: 0;  /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    height: 100%; /* Make sure the body takes up the full height */
+  }
