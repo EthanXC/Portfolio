@@ -1,11 +1,11 @@
 {
     "name": "ethanxc.github.io",
     "scripts": {
+        "homepage": "https://EthanXC.github.io/EthanXC.github.io",
         "dev": "cd Portfolio && npm run dev",
         "build": "cd Portfolio && npm run build",
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d Portfolio/build",
-        "homepage": "https://EthanXC.github.io/EthanXC.github.io"
+        "deploy": "gh-pages -d Portfolio/dist"
     },
     "devDependencies": {
         "gh-pages": "^6.2.0"

@@ -1,9 +1,9 @@
 {
+  "homepage": "https://EthanXC.github.io/EthanXC.github.io",
   "name": "package.json",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://EthanXC.github.io/EthanXC.github.io",
 
   "scripts": {
     "dev": "vite",
@@ -12,7 +12,7 @@
     "preview": "vite preview",
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d Portfolio/build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.3.1",
