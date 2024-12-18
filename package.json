@@ -1,7 +1,6 @@
 {
     "name": "ethanxc.github.io",
     "scripts": {
-        "homepage": "https://EthanXC.github.io/",
         "dev": "cd Portfolio && npm run dev",
         "build": "cd Portfolio && npm run build",
         "predeploy": "npm run build",

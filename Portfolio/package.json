@@ -1,6 +1,6 @@
 {
+  "name": "ethanxc.github.io",
   "homepage": "https://EthanXC.github.io/",
-  "name": "package.json",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "start": "react-scripts start",
+    "start": "vite",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
